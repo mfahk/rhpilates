@@ -1,0 +1,26 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
+
+/*
+	MEDIA FEAT | HK | MEDIA852 // WEB DESIGN | PRESENCE ON LINE SINCE 2006
+	media852.com | @mediafeat
+	Media Company based in APAC
+*/
+
+/* Basic */
+
+	body {
+		&:after {
+			display: none;
+		}
+	}
+
+/* Main */
+
+	#main {
+		@include vendor('transform', 'none !important');
+		opacity: 1 !important;
+	}
